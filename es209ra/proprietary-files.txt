@@ -1,0 +1,77 @@
+# Prebuilt kl keymaps
+usr/keylayout/es209ra_keypad.kl
+usr/keylayout/es209ra_handset.kl
+usr/keychars/es209ra_keypad.kcm.bin
+
+## RIL related stuff 
+lib/libril.so
+bin/port-bridge
+bin/qmuxd
+bin/netd
+lib/libauth.so
+lib/libcm.so
+lib/libdiag.so
+lib/libdll.so
+lib/libdsm.so
+lib/libdss.so
+lib/libgsdi_exp.so
+lib/libgstk_exp.so
+lib/libmmgsdilib.so
+lib/libnv.so
+lib/liboem_rapi.so
+lib/liboncrpc.so
+lib/libpbmlib.so
+lib/libqmi.so
+lib/libqueue.so
+lib/libuim.so
+lib/libril-qc-1.so
+lib/libwms.so
+lib/libwmsts.so
+
+## Camera proprietaries
+lib/liboemcamera.so
+lib/libmmjpeg.so
+lib/libmmipl.so
+lib/libcamerasemc.so
+lib/libopencore_common.so
+
+## FIRMWARE
+etc/firmware/yamato_pfp.fw
+etc/firmware/yamato_pm4.fw
+
+## ATHEROS WIFI
+lib/modules/athwlan.bin.z77
+lib/modules/data.patch.hw2_0.bin
+bin/wlan_mac
+bin/wlan_tool
+bin/hostapd
+etc/wifi/hostapd.conf
+
+## BT proprietary
+bin/hci_qcomm_init
+
+## Adreno 200 files
+lib/libgsl.so
+lib/egl/libGLESv1_CM_adreno200.so
+lib/egl/libq3dtools_adreno200.so
+lib/egl/libEGL_adreno200.so
+lib/egl/libGLESv2_adreno200.so
+
+## Other libraries and proprietary binaries
+etc/sensors.conf
+bin/akmd2
+
+#offline charger
+bin/chargemon
+bin/updatemiscta
+lib/libmiscta.so
+
+#hw
+lib/hw/sensors.es209ra.so
+lib/hw/copybit.es209ra.so
+lib/hw/gralloc.es209ra.so
+
+#OMX
+lib/libOmxCore.so
+lib/libOmxEvrcDec.so
+lib/libOmxQcelp13Dec.so

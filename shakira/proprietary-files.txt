@@ -1,0 +1,106 @@
+# Prebuilt kl keymaps
+usr/keylayout/shakira_keypad.kl
+usr/keylayout/systemconnector.kl
+usr/keychars/shakira_keypad.kcm.bin
+usr/keychars/systemconnector.kcm.bin
+
+## RIL related stuff 
+lib/libril.so
+bin/port-bridge
+bin/qmuxd
+lib/libauth.so
+lib/libcm.so
+lib/libdiag.so
+lib/libdll.so
+lib/libdsm.so
+lib/libdss.so
+lib/libgsdi_exp.so
+lib/libgstk_exp.so
+lib/libmmgsdilib.so
+lib/libnv.so
+lib/liboem_rapi.so
+lib/liboncrpc.so
+lib/libpbmlib.so
+lib/libqmi.so
+lib/libqueue.so
+lib/libuim.so
+lib/libril-qc-1.so
+lib/libwms.so
+lib/libwmsts.so
+
+## Camera proprietaries
+lib/liboemcamera.so
+lib/libmmjpeg.so
+lib/libmmipl.so
+
+## OMX proprietaries
+lib/libmm-adspsvc.so
+lib/libOmxAacDec.so
+lib/libOmxAmrRtpDec.so
+lib/libOmxH264Dec.so
+lib/libOmxQcelpDec.so
+lib/libOmxAacEnc.so
+lib/libOmxAmrwbDec.so
+lib/libOmxMp3Dec.so
+lib/libOmxVidEnc.so
+lib/libOmxAmrDec.so
+lib/libOmxEvrcDec.so
+lib/libOmxMpeg4Dec.so
+lib/libOmxWmaDec.so
+lib/libOmxAmrEnc.so
+lib/libOmxEvrcEnc.so
+lib/libOmxQcelp13Enc.so
+lib/libOmxWmvDec.so
+
+## FIRMWARE
+etc/firmware/yamato_pfp.fw
+etc/firmware/yamato_pm4.fw
+etc/firmware/fm_rx_init_1273.1.bts
+etc/firmware/fm_rx_init_1273.2.bts
+etc/firmware/fm_tx_init_1273.1.bts
+etc/firmware/fm_tx_init_1273.2.bts
+etc/firmware/fmc_init_1273.1.bts
+etc/firmware/fmc_init_1273.2.bts
+etc/firmware/TIInit_7.2.31.bts
+
+## WIFI & BT TI1271
+bin/nvimport
+etc/wifi/tiwlan.ini
+etc/wifi/tiwlan_firmware.bin
+etc/wifi/softap/tiwlan_ap.ini
+etc/wifi/softap/tiwlan_firmware_ap.bin
+
+## Adreno 200 files
+lib/libgsl.so
+lib/egl/libGLESv1_CM_adreno200.so
+lib/egl/libq3dtools_adreno200.so
+lib/egl/libEGL_adreno200.so
+lib/egl/libGLESv2_adreno200.so
+
+## Other libraries and proprietary binaries
+lib/libaudioeq.so
+etc/sensors.conf
+bin/akmd2
+
+#offline charger
+bin/chargemon
+bin/semc_chargalg
+bin/updatemiscta
+lib/libmiscta.so
+
+#hw
+lib/hw/copybit.msm7k.so
+lib/hw/sensors.default.so
+lib/hw/hal_seport.default.so
+lib/libsystemconnector/libuinputdevicejni.so
+lib/libsystemconnector_hal_jni.so
+
+#ANT+
+lib/libanthal.so
+etc/permissions/com.dsi.ant.antradio_library.xml
+etc/permissions/com.sonyericsson.suquashi.xml
+app/antstatenotifer.apk
+app/AntHalService.apk
+app/antradioservice.apk
+framework/com.dsi.ant.antradio_library.jar
+framework/com.sonyericsson.suquashi.jar
